@@ -1,5 +1,5 @@
 
-##comparitions in cuda ptx
+# comparitions in cuda ptx
 
 ## integer
 | meaning | signed op | unsigned op | bit-size op |
@@ -15,10 +15,8 @@
 ## floating
 
 If either operand is NaN, the result is False
-
-
 | meaning | Floating-Point Operator | 
-| ------- | --------- | ----------- | ----------- |
+| ----------------------------------| ----------- |
 | a == b && !isNaN(a) && !isNaN(b)  | eq          |
 | a !=  b && !isNaN(a) && !isNaN(b) | ne          |
 | a <   b && !isNaN(a) && !isNaN(b) | lt          | 

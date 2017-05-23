@@ -15,7 +15,9 @@
 ## floating
 
 If either operand is NaN, the result is False
-| meaning | Floating-Point Operator | 
+
+
+| meaning               | Floating-Point Operator | 
 | ----------------------------------| ----------- |
 | a == b && !isNaN(a) && !isNaN(b)  | eq          |
 | a !=  b && !isNaN(a) && !isNaN(b) | ne          |

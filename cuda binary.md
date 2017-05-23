@@ -1,16 +1,16 @@
 [TOC]
 # cuda binary
 
-#1.Overview
+# 1.Overview
 
-##1.1什么是CUDA二进制文件
+## 1.1什么是CUDA二进制文件
  cuda 二进制文件 （.cubin .elf）是一种 ELF格式的文件，其中包含可执行代码部分，还包含了一些 符号、relocator、debug 信息等其他内容。
 
  默认情况下，CUDA编译器 nvcc 可以讲cubin 文件，嵌入到 host 的可执行文件中。也可以 使用 nvcc -cubin 来编译直接得到 x.cubin 文件。
 
  **注意：** 更多细节参见 nvcc 的用法。
 
-##1.2两种反编译工具
+## 1.2两种反编译工具
  两个 反编译工具： cuobjdump   and   nvdisasm 
 
  **1.2.1 相同点**：都可以 反编译 .cubin 文件
@@ -30,9 +30,9 @@ nvdisasm 则不能。
 **2.nvdisasm 可以进行 控制流分析并输出 和 显示高级选型** 
 
 
-#2.cuobjdump
+# 2.cuobjdump
 
-##2.1用法
+## 2.1用法
 
  格式 ： 命令  选项   文件
 cuobjdump accepts a single input file each time it's run. The basic usage is as following:
